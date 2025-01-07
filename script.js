@@ -2,13 +2,13 @@
 
 
 
-// Dec 19th, 2024 4:00 PM pacific time
+// Mar 19th, 2025 4:00 PM pacific time
 
 
 function updateCountdown(days, hours, minutes, seconds) {
     let currentTime = new Date();
-    // 4:00 PM pacific time Dec 19th.
-    let targetTime = new Date("Dec 19, 2024 16:00:00").getTime();
+    // 4:00 PM pacific time Mar 19th.
+    let targetTime = new Date("Mar 19, 2025 16:00:00").getTime();
     let timeDifference = targetTime - currentTime;
     
     let daysLeft = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
